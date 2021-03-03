@@ -1,0 +1,107 @@
+#title {
+    background-color: #b1b1b1;
+    text-align: center;
+    font-family: Verdana;
+}
+
+body {
+    background-color: #b1b1b1;
+    font-family: Courier New;
+    margin-left: 250px;
+}
+
+.main-section {
+    color: #bc4370;
+}
+
+#nav-bar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: #fff9e9;
+    position: fixed;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    box-shadow: 5px 10px 8px #888888;
+    border-color: black;
+    margin-left: auto;
+    border: 1px solid #555;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    overflow: auto;
+    border: 1px solid #555;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #fff9e9;
+    height: 100%;
+    /* Full height */
+    position: fixed;
+    /* Make it stick, even on scroll */
+    overflow: auto;
+    /* Enable scrolling if the sidenav has too much content */
+}
+
+li {
+    border-bottom: 1px solid #555;
+    text-align: center;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+}
+
+li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:active {
+    color: #4CAF50;
+}
+
+.site-map {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
